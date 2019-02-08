@@ -6,6 +6,12 @@ Yet another withContext utility for React Context
 * `React.forwardRef`-like API
 * TypeScript native
 
+## Install
+```sh
+npm install react-context-receiver
+```
+
+
 ## API
 ```ts
 function getContextReceiver(Context): ContextReceiver
