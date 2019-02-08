@@ -1,0 +1,24 @@
+{
+  "name": "react-context-receiver",
+  "version": "0.1.0",
+  "description": "Yet another withContext utility for React Context",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tkntkn/react-context-receiver.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "tsc"
+  },
+  "author": "tkntkn",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.3.1"
+  },
+  "dependencies": {
+    "@types/react": "^16.8.1",
+    "react": "^16.7.0"
+  }
+}
